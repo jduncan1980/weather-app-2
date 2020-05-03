@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.container {
+	background-color: rgb(106, 182, 218);
+	width: 100%;
+	border-top-left-radius: 65px;
+	border-bottom: 9px double #000000;
+	display: flex;
+	justify-content: space-between;
+
+	font-family: 'Special Elite', cursive;
+}
+
+.h1 {
+	font-size: 3rem;
+	margin-left: 1.5rem;
+	align-self: flex-start;
+}
+
+@media only screen and (max-width: 1000px) {
+	.container {
+		flex-direction: column;
+		border-top-left-radius: 0;
+		border-top: 5px solid #000000;
+	}
+	.h1 {
+		margin-left: 0;
+		align-self: center;
+		justify-self: center;
+		font-size: 2rem;
+	}
+}

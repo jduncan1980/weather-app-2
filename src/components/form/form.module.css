@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.container {
+	height: 70%;
+	width: 40%;
+	font-family: 'Special Elite', cursive;
+	background-color: rgb(193, 196, 211);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	align-self: flex-start;
+}
+
+.input {
+	height: 5%;
+	width: 80%;
+	font-size: 1rem;
+	border: none;
+	border-radius: 10px;
+	padding: 1%;
+	justify-self: flex-start;
+}
+
+.input::placeholder {
+	color: rgba(165, 182, 189, 0.651);
+}
+
+.button {
+	width: 70%;
+	margin: 2rem 0;
+	padding: 5% 15%;
+	border-radius: 20px;
+	border: none;
+	font-family: inherit;
+	font-size: 1.25rem;
+	background-color: rgb(106, 182, 218);
+	text-align: center;
+}
+
+.label {
+	margin: 1.5rem 0 0.5rem 0;
+	font-size: 0.75rem;
+}
+
+.input:focus,
+.button:focus {
+	border: 2px solid rgb(221, 119, 3);
+	outline: 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.container {
+		align-self: center;
+		width: 95%;
+		margin-top: 4%;
+		order: 2;
+	}
+}
