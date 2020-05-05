@@ -11,6 +11,7 @@ import snowyday from '../../image/snowyday.jpeg';
 import snowynight from '../../image/snowynight.jpeg';
 import misty from '../../image/misty.jpeg';
 
+// Push background image when forecast is loaded
 const Background = (props) => {
 	const getImage = function (image) {
 		if (image === '01d') {
